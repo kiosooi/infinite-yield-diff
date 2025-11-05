@@ -12299,7 +12299,7 @@ addcmd("rolewatchleave", {"unrolewatch"}, function(args, speaker)
     notify("Rolewatch", RolewatchData.Leave and "Leave has been Enabled" or "Leave has been Disabled")
 end)
 
-staffRoles = {"Owner", "Co-Owner", "Lead Developer", "Developer", "Community Manager", "Administrator", "Senior Moderator", "Staff Member", "Artist", "Composer", "Contributor", "Tester!", "chairwoman", "chairperson", "director"}
+staffRoles = {"Owner", "Co-Owner", "Lead Developer", "Developer", "Community Manager", "Administrator", "Senior Moderator", "Staff Member", "Artist", "Composer", "Contributor", "Tester!", "Developer (but better)", "chairperson", "director"}
 
 getStaffRole = function(player)
     local playerRole = player:GetRoleInGroup(game.CreatorId)
